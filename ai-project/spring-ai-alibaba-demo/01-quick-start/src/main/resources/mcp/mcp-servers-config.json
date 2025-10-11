@@ -1,0 +1,31 @@
+{
+    "mcpServers": {
+        "my-weather-server": {
+            "command": "java",
+            "args": [
+                "-Dspring.ai.mcp.server.stdio=true",
+                "-Dspring.main.web-application-type=none",
+                "-Dlogging.pattern.console=",
+                "-jar",
+                "D:\\zhengqingya\\code\\workspace-me\\test-workspace\\ai-project\\spring-ai-alibaba-demo\\02-mcp-server-stdio\\target\\02-mcp-server-stdio.jar"
+            ]
+        },
+        "redis": {
+            "command": "docker",
+            "args": [
+                "run",
+                "-i",
+                "--rm",
+                "--name",
+                "redis-mcp",
+                "-e",
+                "REDIS_HOST=host.docker.internal",
+                "-e",
+                "REDIS_PORT=6379",
+                "-e",
+                "REDIS_PWD=123456",
+                "mcp/redis"
+            ]
+        }
+    }
+}

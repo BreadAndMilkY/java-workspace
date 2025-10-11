@@ -8,6 +8,10 @@
 
 ### 目录
 
+#### AI 学习
+
+- [spring-ai-alibaba-demo](ai-project/spring-ai-alibaba-demo)
+
 #### SpringBoot系列
 
 - [01-整合MyBatis-Plus](./SpringBoot系列/01-整合MyBatis-Plus)

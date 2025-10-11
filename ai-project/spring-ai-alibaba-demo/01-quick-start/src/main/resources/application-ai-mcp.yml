@@ -1,0 +1,32 @@
+spring:
+  ai:
+    mcp:
+      client:
+        request-timeout: 60s
+        # stdio 方式
+        stdio:
+          # 方式1：配置文件
+          servers-configuration: classpath:/mcp/mcp-servers-config.json
+
+          # 方式2：直接配置
+          connections:
+            my-weather-server:
+              command: java
+              args:
+                - -Dspring.ai.mcp.server.stdio=true
+                - -Dspring.main.web-application-type=none
+                - -Dlogging.pattern.console=
+                - -jar
+                - D:\zhengqingya\code\workspace-me\test-workspace\ai-project\spring-ai-alibaba-demo\02-mcp-server-stdio\target\02-mcp-server-stdio.jar  # 放一个绝对路径，修改为server jar包所在位置
+        # sse 方式
+#        sse:
+#          connections:
+#            my-sse-server:
+#              url: http://localhost:10088
+
+# 调试日志
+logging:
+  level:
+    io.modelcontextprotocol:
+      client: debug
+      spec: debug

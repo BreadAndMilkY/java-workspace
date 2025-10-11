@@ -1,0 +1,7 @@
+spring:
+  ai:
+    dashscope:
+      embedding:
+        options:
+          model: text-embedding-v4
+          dimensions: 64 # value shold be in [64, 128, 256, 512, 768, 1024, 1536, 2048, 3072]

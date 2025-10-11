@@ -1,0 +1,15 @@
+server:
+  port: 3888
+  servlet:
+    encoding:
+      enabled: true
+      charset: utf-8
+      force: true
+
+spring:
+  application:
+    name: ai-learn-observability
+  profiles:
+    include:
+      - ai-observability
+

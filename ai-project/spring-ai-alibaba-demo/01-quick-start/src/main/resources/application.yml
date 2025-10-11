@@ -1,0 +1,21 @@
+server:
+  port: 888
+  servlet:
+    encoding:
+      enabled: true
+      charset: utf-8
+      force: true
+
+spring:
+  application:
+    name: ai-learn
+  profiles:
+    include:
+      - knife4j
+      - ai
+      - ai-mcp
+      - ai-rag
+
+# 配置日志地址
+logging:
+  config: classpath:logback-spring.xml
