@@ -17,7 +17,7 @@ spring:
                 - -Dspring.main.web-application-type=none
                 - -Dlogging.pattern.console=
                 - -jar
-                - D:\zhengqingya\code\workspace-me\test-workspace\ai-project\spring-ai-alibaba-demo\02-mcp-server-stdio\target\02-mcp-server-stdio.jar  # 放一个绝对路径，修改为server jar包所在位置
+                - D:\zhengqingya\code\workspace-me\java-workspace\ai-project\spring-ai-alibaba-demo\02-mcp-server-stdio\target\02-mcp-server-stdio.jar  # 放一个绝对路径，修改为server jar包所在位置
         # sse 方式
 #        sse:
 #          connections:
