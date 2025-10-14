@@ -4,6 +4,10 @@
 - https://github.com/alibaba/spring-ai-alibaba
 - https://github.com/spring-ai-alibaba/examples
 
+# 本项目文档
+
+见 [doc](doc)
+
 # 其它
 
 - [DeepSeek 对话](https://chat.deepseek.com/)
