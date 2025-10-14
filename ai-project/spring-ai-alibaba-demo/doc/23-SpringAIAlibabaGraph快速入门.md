@@ -1,4 +1,4 @@
-# Spring Ai Alibaba Graph 快速入门
+# Spring AI Alibaba Graph 快速入门
 
 Spring AI Alibaba Graph 是一个强大且直观的框架，能让你像搭积木一样，通过编排节点和流程来构建复杂的AI应用。
 
@@ -108,7 +108,7 @@ public class SimpleGraphConfiguration {
 ```
 
 PlantUML 问题扩展流程见 [graph.puml](../01-quick-start/src/main/java/com/zhengqing/saa/api/graph/first/graph.puml)
-![](./images/23-Spring Ai Alibaba Graph 快速入门-1760445454857.png)
+![](./images/23-SpringAIAlibabaGraph快速入门-1760445454857.png)
 
 #### 4、编译并运行工作流
 
@@ -161,4 +161,4 @@ public class SimpleGraphController {
 #### 5、测试
 
 http://localhost:888/graph/expand?query=什么是人工智能
-![](./images/23-Spring Ai Alibaba Graph 快速入门-1760445382771.png)
+![](./images/23-SpringAIAlibabaGraph快速入门-1760445382771.png)
