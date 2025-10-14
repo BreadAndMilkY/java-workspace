@@ -71,6 +71,12 @@
             <groupId>org.springframework.ai</groupId>
             <artifactId>spring-ai-markdown-document-reader</artifactId>
         </dependency>
+
+        <!-- Graph：一个基于状态图（StateGraph）的工作流与多智能体框架 -->
+        <dependency>
+            <groupId>com.alibaba.cloud.ai</groupId>
+            <artifactId>spring-ai-alibaba-graph-core</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
