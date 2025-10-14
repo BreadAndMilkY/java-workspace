@@ -1,0 +1,20 @@
+@startuml simple_travel_chain
+skinparam usecaseFontSize 14
+skinparam usecaseStereotypeFontSize 12
+skinparam hexagonFontSize 14
+skinparam hexagonStereotypeFontSize 12
+title "simple travel chain"
+footer
+
+powered by spring-ai-alibaba
+end footer
+circle start<<input>> as __START__
+circle stop as __END__
+usecase "getDestinationInfo"<<Node>>
+usecase "planTravelRoute"<<Node>>
+usecase "estimateBudget"<<Node>>
+"__START__" -down-> "getDestinationInfo"
+"getDestinationInfo" -down-> "planTravelRoute"
+"planTravelRoute" -down-> "estimateBudget"
+"estimateBudget" -down-> "__END__"
+@enduml

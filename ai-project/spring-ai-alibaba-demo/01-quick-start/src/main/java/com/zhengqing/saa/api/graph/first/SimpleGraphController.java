@@ -28,7 +28,7 @@ public class SimpleGraphController {
     }
 
     /**
-     * http://localhost:888/graph/expand?query=你是谁？
+     * http://localhost:888/graph/expand?query=什么是人工智能
      */
     @GetMapping("/expand")
     public Map<String, Object> expandQuery(@RequestParam String query) throws GraphRunnerException {
@@ -39,5 +39,5 @@ public class SimpleGraphController {
         // 从最终状态中获取结果
         return result.map(OverAllState::data).orElse(Map.of());
     }
-    
+
 }

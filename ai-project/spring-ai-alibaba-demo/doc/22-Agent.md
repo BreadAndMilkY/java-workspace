@@ -46,4 +46,7 @@ AI Agent（人工智能代理）是一种能够自主感知环境、做出决策
 
 ### 代码示例
 
-见 [agent](../01-quick-start/src/main/java/com/zhengqing/saa/api/agent)
+- 通俗易懂版见 [agent](../01-quick-start/src/main/java/com/zhengqing/saa/api/agent)
+- Graph版见 [graph](../01-quick-start/src/main/java/com/zhengqing/saa/api/graph)
+
+可参考：[Spring Ai Alibaba Graph实现五大工作流模式](https://blog.csdn.net/renpeng301/article/details/148877785)
